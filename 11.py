@@ -7,7 +7,7 @@ import time          # 导入时间模块
 import calendar      # 导入日历模块
 
 ticks = time.time()
-print "Time segment:", ticks       # 时间段，从1970年1月1日开始计算
+print "Time segment:", ticks       # 时间段，从1970年1月1日开始计算秒数
 
 localtime = time.localtime()
 print "Localtime:", localtime       # 元组时间输出
