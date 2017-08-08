@@ -43,3 +43,5 @@ print tuple[1:3]   # 输出头部序号和到尾部序号内, 尾部序号不输
 print tuple[2:]   # 从第3个开始一直到最后，[：]代表全部输出
 print tinyuple * 2  # 输出两次
 print tuple + tinyuple  # + 代表连接
+# 元组大致与列表相同，要注意的是当元组内只有一个元素时，需要在元素后加上" , " 号，如 tupl=(50,)
+# 元组只有 cmp(),len(),max(),min(),tuple(seq) 这几个函数,最后一个是转换为元组
