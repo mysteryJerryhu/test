@@ -20,7 +20,7 @@ print "Localtime:", time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())  # 按�
 
 cal = calendar.month(2017, 8)     # 输出2017年8月的日历
 print cal
-cal1 = calendar.month(input("输入年份:"), input("输入月份:"))   # 手工输入年份月份输出
+cal1 = calendar.month(input("Enter year:"), input("Enter month:"))   # 手工输入年份月份输出
 print cal1
 '''
 其他时间和日历的模块和函数，具体自行查询
