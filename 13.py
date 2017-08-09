@@ -21,3 +21,7 @@ From...import * 语句
 import math
 content = dir(math)     # dir()函数可以列出一个模块内所包含的所有变量，函数，定义模块
 print content
+
+def action(x):
+    return lambda y: x + y
+print (action(input("x=")))(input("y="))    # def函数中引用lambda
