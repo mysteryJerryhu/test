@@ -17,7 +17,7 @@ print "file name:", a.name        # 返回文件名称
 print "close:", a.closed          # 返回文件关闭状态，若关闭返回true，否则false
 print "access mode:", a.mode      # 返回文件访问模式
 
-# rename()和remove()方法需要导入os模块
+# rename("existing", "changed")和remove()方法需要导入os模块
 os.rename("test2.txt", "abc.txt")  # 重命名test2.txt为abc.txt
 os.remove("bbb.txt")               # 删除bbb.txt文件
 
